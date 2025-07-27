@@ -1,0 +1,107 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #004d99;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+header p {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0066cc 0%, #3399ff 100%);
+  color: #fff;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #fff;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.hero .btn:hover {
+  background: #e6e6e6;
+}
+
+/* Vision Section */
+.vision {
+  padding: 40px 0;
+}
+.vision h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #004d99;
+}
+.vision p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+  }
+  .hero h2 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
